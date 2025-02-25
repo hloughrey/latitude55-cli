@@ -24,6 +24,12 @@ brews:
     commit_author:
       name: "Hugh Loughrey"
       email: "hugh.loughrey@gmail.com"
+    url_template: "https://github.mycompany.com/foo/bar/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    license: "MIT"
+    repository:
+      owner: hloughrey
+      name: homebrew-latitude55
+      branch: main
 
 checksum:
   name_template: "checksums.txt"
