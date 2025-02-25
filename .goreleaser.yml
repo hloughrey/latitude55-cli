@@ -24,7 +24,7 @@ brews:
     commit_author:
       name: "Hugh Loughrey"
       email: "hugh.loughrey@gmail.com"
-    url_template: "https://github.mycompany.com/foo/bar/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    url_template: "https://github.com/hloughrey/latitude55-cli/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     license: "MIT"
     repository:
       owner: hloughrey
