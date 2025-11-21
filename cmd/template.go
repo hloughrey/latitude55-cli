@@ -46,7 +46,7 @@ func createDirectory() string {
 				log.Fatal(err)
     }
 
-	var appDirectory = filepath.Join(dir, "..", applicationName)
+	var appDirectory = filepath.Join(dir, applicationName)
 
 	err = os.MkdirAll(appDirectory, 0750)
 	if err != nil {
